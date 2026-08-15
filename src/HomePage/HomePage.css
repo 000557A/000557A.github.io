@@ -1,0 +1,72 @@
+
+
+.body-HomePage{
+  padding: 6vw;
+  margin-left:18vw;
+  margin-right:auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  background-color:rgb(255, 255, 255);
+  font-size:1vw;
+
+
+  border-radius:2vw;
+  border-color:rgb(80, 246, 255);
+  border-width: 0.25vw;
+  border-style: solid;
+  
+   
+  width: 52vw;
+  height: 200vw;
+  
+  
+  
+}
+
+.Entirety-HomePage{
+  
+  margin-left: -0.5vw;
+  margin-right:-0.5vw;
+  margin-top:-4%;
+  
+  background-image:url("Background.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  
+
+}
+
+.bodybackground-HomePage{
+  
+ 
+  background-color:rgba(0, 0, 0, 0.1);
+  
+  
+}
+
+.TopImage-HomePage{
+  width: 99vw;
+  height:30vw;
+  
+}
+
+
+.Subtitle-HomePage{
+  position:fixed;
+
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size:5vw;
+  padding-top:5vw;
+  transform:translateY(10vh);
+
+  
+  text-decoration-line: underline;
+  text-orientation: sideways;
+  writing-mode: vertical-rl;
+
+
+  color:rgb(0, 0, 0);
+  z-index: 99;
+
+}

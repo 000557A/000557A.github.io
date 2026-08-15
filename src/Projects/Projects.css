@@ -1,0 +1,193 @@
+
+
+
+.body-Projects{
+  padding: 6vw;
+  margin-left:18vw;
+  margin-right:auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  background-color:rgb(255, 255, 255);
+  font-size:1vw;
+
+
+  border-radius:2vw;
+  border-color:rgb(80, 246, 255);
+  border-width: 0.25vw;
+  border-style: solid;
+  
+   
+  width: 52vw;
+  height: 200vw;
+  
+  
+  
+}
+
+.Entirety-Projects{
+  
+  margin-top:-4%;
+  margin-left: -0.5vw;
+  margin-right:-0.5vw;
+  background-image:url("Background.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  
+
+}
+
+.bodybackground-Projects{
+  
+ 
+  background-color:rgba(0, 0, 0, 0.1);
+  
+}
+
+ 
+
+.Subtitle-Projects{
+  position:fixed;
+
+  font-family: "Cormorant Garamond", serif;
+  font-size:5vw;
+  padding-top:5vw;
+  transform:translateY(10vh);
+
+  
+  text-decoration-line: underline;
+  text-orientation: sideways;
+  writing-mode: vertical-rl;
+
+
+  color:rgb(0, 0, 0);
+  z-index: 99;
+
+}
+
+.cpuimage{
+  height: 28.55vh;
+  position:relative;
+  z-index: 1;
+
+}
+
+.Title{
+  position:relative;
+  z-index: 2;
+  transform: translate(3vw,-24.5vh);
+}
+
+
+.Information{
+  position:relative;
+  transform: translate(3vw,-24.5vh);
+  z-index: 5;
+}
+
+
+.bottompart{
+  transform: translateY(-30vh);
+}
+
+.socketimage{
+  height: 28vh;
+  position: relative;
+  z-index: 4;
+ }
+
+ .lidleft{
+  position:relative;
+  z-index: 6;
+ }
+
+ .lidright{
+  position:relative;
+  z-index: 6;
+ }
+ 
+
+@keyframes CPUAnimationLeft {
+  0%   {transform: translateY(-2vh)}
+  15%  {transform: translate(0vh, -2vh)}
+  100% {transform: translate(29vh, -2vh)}
+  
+}
+
+@keyframes CPUAnimationRight{
+  0%   {transform: translateY(-2vh)}
+  15%  {transform: translate(0vh, -2vh)}
+  100% {transform: translate(-29vh, -2vh)}
+  
+}
+
+
+.lidleft:hover{
+  animation-name:CPUAnimationLeft;
+  animation-duration: 1.6s;
+  animation-fill-mode: forwards;
+}
+
+
+
+.lidright:hover{
+  animation-name:CPUAnimationRight;
+  animation-duration: 1.6s;
+  animation-fill-mode: forwards;
+}
+
+
+
+.grid1 {
+  display:inline-flex;
+}
+
+.Grid-Projects2{
+  transform:translateY(40vh);
+
+}
+
+
+.Grid-Projects{
+  padding-right:35vh;
+  
+}
+
+.Project{
+  position:relative;
+  z-index: 30;
+}
+
+.subheading{
+  color:rgb(0, 0, 0);
+  font-family: "Cormorant Garamond", serif;
+  text-align:center;
+  font-size: 10vh;
+  text-decoration-line: overline;
+  
+}
+
+
+.subcontext{
+  color:rgb(0, 0, 0);
+  font-family: "Cormorant Garamond", serif;
+  text-align:center;
+  font-size: 3vh;
+  
+}
+
+.divider{
+  color:rgb(80, 246, 255);
+  text-decoration-line: underline;
+  text-align:center;
+  font-size: 10vh;
+}
+
+
+
+
+.line{
+  position:relative;
+  height:20vh;
+  transform:translateY(40vh);
+  z-index:1;
+}

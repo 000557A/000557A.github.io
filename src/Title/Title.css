@@ -1,0 +1,76 @@
+.all {
+  background-color: white;
+  color:rgb(85, 216, 242);
+  font-family: "Cormorant Garamond", serif;
+  display:inline-flex;
+  width: 100vw;
+  margin:-2vw;
+}
+
+
+@keyframes MenuAnimation {
+  0%   {opacity:0%;}
+  20%  {opacity:4%;}
+  50%  {opacity:25%;}
+  75%  {opacity:56.25%;}
+  100% {opacity:100%;}
+  
+}
+
+
+.TitleList{
+  list-style-type: none;
+  text-align:left;
+  animation-name: MenuAnimation;
+  animation-duration: 1.1s;
+  font-size: 2.5vw;
+
+}
+
+ 
+li{
+  
+  margin-top: 3vw;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1%;
+  transition-duration: 350ms;
+}
+
+li:hover{
+  text-shadow: -1px 0 rgb(204, 246, 255), 0 1px rgb(204, 246, 255), 1px 0 rgb(204, 246, 255), 0 -1px rgb(204, 246, 255);
+}
+
+ 
+
+
+.MenuList{
+  padding: 8%;
+  padding-left: 5%;
+  align-items: center;
+  background-color:rgb(255, 255, 255);
+  max-block-size: 15%;
+
+}
+
+
+
+
+.RightImage{
+    height: 100vh; 
+    width: 75vw; 
+      
+ }
+
+ 
+
+
+a {
+  text-decoration: none;
+  color: rgb(85, 216, 242);
+  
+}
+
+a:visited{
+  text-decoration: none;
+  color: rgb(85, 216, 242);
+}
