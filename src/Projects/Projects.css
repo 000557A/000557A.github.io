@@ -15,10 +15,11 @@
   border-color:rgb(80, 246, 255);
   border-width: 0.25vw;
   border-style: solid;
-  
+  box-shadow:0 0 9vw 9vw rgba(255, 255, 255, 1);
    
   width: 52vw;
   height: 200vw;
+
   
   
   
@@ -62,6 +63,7 @@
 
   color:rgb(255, 255, 255);
   text-shadow: rgb(5, 187, 203) 0 0 2vh;
+  
   z-index: 99;
 
 }
