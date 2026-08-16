@@ -34,6 +34,10 @@ function App() {
           <Route path = "/Projects" element ={<Projects/>}/>
           <Route path = "/About" element ={<About/>}/> */
         </Routes>
+
+
+
+        
       </BrowserRouter>
 
     

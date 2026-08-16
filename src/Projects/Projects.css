@@ -3,7 +3,7 @@
 
 .body-Projects{
   padding: 6vw;
-  margin-left:18vw;
+  margin-left:17vw;
   margin-right:auto;
   margin-top: 4vh;
   margin-bottom: 4vh;
@@ -78,18 +78,31 @@
 .Title{
   position:relative;
   z-index: 2;
-  width:9vw;
-  text-align: center;
-  transform: translate(2.75vw,-19.5vh);
+  width:8vw;
+  height:3vh;
+  transform: translate(2vw,-24.5vh);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(98, 98, 98);
+  font-size:2.5vh;
+  font-weight:bold;
+
 }
 
 
 .Information{
   position:relative;
-  transform: translate(1.5vw,-24.5vh);
-  width:12vw;
+  transform: translate(1.55vw,-25vh);
+  width:22.5vh;
+  height:20vh;
   z-index: 5;
+  background-color:rgba(0, 0, 0, 0.6);
+  border-radius:2vh;
+  color:white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:bold;
+  font-size:2vh;
+  text-align:center;
+
 }
 
 
@@ -115,16 +128,16 @@
  
 
 @keyframes CPUAnimationLeft {
-  0%   {transform: translateY(-2vh)}
-  15%  {transform: translate(0vh, -2vh)}
-  100% {transform: translate(29vh, -2vh)}
+  0%   {transform: translateY(-0.75vh)}
+  15%  {transform: translate(0vh, -0.75vh)}
+  100% {transform: translate(29vh, -0.75vh)}
   
 }
 
 @keyframes CPUAnimationRight{
-  0%   {transform: translateY(-2vh)}
-  15%  {transform: translate(0vh, -2vh)}
-  100% {transform: translate(-29vh, -2vh)}
+  0%   {transform: translateY(-1vh)}
+  15%  {transform: translate(0vh, -1vh)}
+  100% {transform: translate(-29vh, -1vh)}
   
 }
 
@@ -205,7 +218,7 @@
 .line2{
   position:absolute;
   height:15vh;
-  transform:translate(-27vw, 15vh);
+  transform:translate(-30vw, 25vh);
   z-index:1;
 }
 

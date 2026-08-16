@@ -63,14 +63,24 @@ li:hover{
 
  
 
+ 
+.LinkStyles:visited{
+  text-decoration: none;
+  
+}
 
-a {
+
+.LinkStyles{
   text-decoration: none;
   color: rgb(85, 216, 242);
-  
 }
 
 a:visited{
   text-decoration: none;
-  color: rgb(85, 216, 242);
+  
+}
+
+
+a{
+  text-decoration: none;
 }

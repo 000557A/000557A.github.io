@@ -13,6 +13,8 @@ import test from'../WIP.png'
 function Title(){
     // Title is only responsible for the
     // Left menu that you see at the start
+
+    //NOte when have time, edit the hover effects on this page
     
     return(
 
@@ -22,10 +24,10 @@ function Title(){
             
             <ul className = "TitleList">
 
-                <li><Link to = "/"         >Home</Link></li>
-                <li><Link to = "/HomePage" style={{textDecoration: 'none'}} >Downloads</Link></li>
-                <li><Link to = "/Projects" style={{textDecoration: 'none'}} >Projects </Link></li>
-                <li><Link to = "/About" style={{textDecoration: 'none'}} >About</Link></li>
+                <li ><Link to = "/" className = "LinkStyles">Home</Link></li>
+                <li><Link to = "/HomePage" className = "LinkStyles" >Downloads</Link></li>
+                <li><Link to = "/Projects" className = "LinkStyles" >Projects </Link></li>
+                <li><Link to = "/About" className = "LinkStyles" >About</Link></li>
                 <Outlet/>
             </ul>
         </div>

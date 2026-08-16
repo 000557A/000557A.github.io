@@ -57,11 +57,15 @@ function Projects(){
 
                             <img className = "line2" src = {line2}></img>
                             {/* --------Project1--------- */}
+
+                            <a href = "https://github.com/000557A/test">
                             <div className = "Project">
                                 <div className = "lidleft">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
-                                        ?? Hidden Project I
+                                        Xaser Revival (WIP!)
+                                        <br></br><br></br><br></br>
+                                        2026
                                     </div>  
                                 </div>
                                 
@@ -73,14 +77,18 @@ function Projects(){
                                     </div>
                                 </div>
                             </div>
+                            </a>
                             
 
                             {/* --------Project1--------- */}
+                            <a href = "https://github.com/000557A/Arduino-Benq-S-Switch">
                             <div className = "Project">
                                 <div className = "lidleft">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
-                                        "S-Switch Deluxe"
+                                        S-Switch Deluxe
+                                        <br></br><br></br><br></br><br></br>
+                                        2026
                                     </div>  
                                 </div>
 
@@ -93,13 +101,16 @@ function Projects(){
                                     </div>
                                 </div>
                             </div>
+                            </a>
                             
-                            
+                            <a href = "https://devpost.com/software/study-uivysa">
                             <div className = "Project">
                                 <div className = "lidleft">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
                                         Study+
+                                        <br></br><br></br><br></br><br></br><br></br>
+                                        2022
                                     </div>  
                                 </div>
 
@@ -114,6 +125,7 @@ function Projects(){
 
                                 
                             </div>
+                            </a>
 
                                              
                         </ul>
@@ -127,11 +139,14 @@ function Projects(){
                             <img className = "line2" src = {line2}></img>
 
                             {/* --------Project1--------- */}
+                            <a href = "https://github.com/Kinda-Andrew/E-Valuate">
                             <div className = "Project">
                                 <div className = "lidright">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
                                         SFU Surge
+                                        <br></br><br></br><br></br><br></br><br></br>
+                                        2025
                                     </div>  
                                 </div>
 
@@ -144,6 +159,9 @@ function Projects(){
                                     </div>
                                 </div>
                             </div>
+                            </a>
+
+
                             <img className = "line2" src = {line2}></img>
                             <img className = "line1inverse" src = {line1}></img>
                             {/* --------Project1--------- */}
@@ -152,6 +170,8 @@ function Projects(){
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
                                         Inventory Manager
+                                        <br></br><br></br><br></br><br></br>
+                                        2024
                                     </div>  
                                 </div>
 
