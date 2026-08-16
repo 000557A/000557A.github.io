@@ -5,7 +5,7 @@ import Title from './Title/Title.jsx'
 import HomePage from './HomePage/HomePage.jsx'
 import Projects  from './Projects/Projects.jsx'
 import About from './About/About.jsx'
-import cpu from './cpu/cpu.jsx'
+
 
 
 

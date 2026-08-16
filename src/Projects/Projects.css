@@ -185,9 +185,26 @@
 
 
 
-.line{
-  position:relative;
-  height:20vh;
-  transform:translateY(40vh);
+.line1{
+  position:absolute;
+  height:40vh;
+  transform:translate(10vw, 2vh);
+  z-index:8;
+}
+
+
+
+.line2{
+  position:absolute;
+  height:15vh;
+  transform:translate(-27vw, 15vh);
+  z-index:1;
+}
+
+
+.line1inverse{
+  position:absolute;
+  height:45vh;
+  transform:translate(-32vw, -20vh) rotateX(180deg) rotateY(180deg);
   z-index:1;
 }

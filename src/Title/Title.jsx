@@ -4,7 +4,7 @@ import Homepage from "../HomePage/HomePage.jsx"
 import Projects from "../Projects/Projects.jsx"
 
 // import images like this
-import test from'./image2.jpg'
+import test from'../WIP.png'
 
 
 // needed for navigation

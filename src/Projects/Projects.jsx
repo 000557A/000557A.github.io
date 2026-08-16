@@ -1,5 +1,6 @@
 import './Projects.css'
-import line from './Line.png'
+import line1 from '../Assets/Line1.png'
+import line2 from '../Assets/Line2.png'
 import CPU2 from './cpuv2.png'
 import SOCKET from './socket.png'
 function Projects(){
@@ -50,7 +51,8 @@ function Projects(){
 
                         <ul className = "Grid-Projects">
                             {/*---------------- MAKE THIS INTO A FUNCTION LATER!!------------- */}
-
+                            <img className = "line1" src = {line1}></img>
+                            <img className = "line2" src = {line2}></img>
                             {/* --------Project1--------- */}
                             <div className = "Project">
                                 <div className = "lidleft">
@@ -61,6 +63,8 @@ function Projects(){
                                 </div>
 
 
+                                
+                                
                                 <div className = "bottompart">
                                     <img className = "socketimage" src = {SOCKET}></img>
 
@@ -69,7 +73,7 @@ function Projects(){
                                     </div>
                                 </div>
                             </div>
-
+                            
 
                             {/* --------Project1--------- */}
                             <div className = "Project">
@@ -89,8 +93,8 @@ function Projects(){
                                     </div>
                                 </div>
                             </div>
-
-
+                            
+                            
                             <div className = "Project">
                                 <div className = "lidleft">
                                     <img className = "cpuimage" src = {CPU2}></img>
@@ -107,6 +111,8 @@ function Projects(){
                                         This is a paragraph3!
                                     </div>
                                 </div>
+
+                                
                             </div>
 
                                              
@@ -116,7 +122,9 @@ function Projects(){
 
                         <ul className = "Grid-Projects2">
                             {/*---------------- MAKE THIS INTO A FUNCTION LATER!!------------- */}
-
+                         
+                            
+                            <img className = "line2" src = {line2}></img>
 
                             {/* --------Project1--------- */}
                             <div className = "Project">
@@ -136,8 +144,8 @@ function Projects(){
                                     </div>
                                 </div>
                             </div>
-
-
+                            <img className = "line2" src = {line2}></img>
+                            <img className = "line1inverse" src = {line1}></img>
                             {/* --------Project1--------- */}
                             <div className = "Project">
                                 <div className = "lidright">
@@ -156,8 +164,8 @@ function Projects(){
                                     </div>
                                 </div>
                             </div>
-
-
+                            <img className = "line1inverse" src = {line1}></img>
+                                
                             <div className = "Project">
                                 <div className = "lidright">
                                     <img className = "cpuimage" src = {CPU2}></img>
@@ -175,6 +183,8 @@ function Projects(){
                                     </div>
                                 </div>
                             </div>
+
+                            
 
                                              
                         </ul>
