@@ -76,13 +76,17 @@
 .Title{
   position:relative;
   z-index: 2;
-  transform: translate(3vw,-24.5vh);
+  width:9vw;
+  text-align: center;
+  transform: translate(2.75vw,-19.5vh);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .Information{
   position:relative;
-  transform: translate(3vw,-24.5vh);
+  transform: translate(1.5vw,-24.5vh);
+  width:12vw;
   z-index: 5;
 }
 
@@ -210,3 +214,5 @@
   transform:translate(-32vw, -20vh) rotateX(180deg) rotateY(180deg);
   z-index:1;
 }
+
+ 

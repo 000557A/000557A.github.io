@@ -7,7 +7,7 @@ function Projects(){
     return(
         <div className = "Entirety-Projects">
 
-            
+        
 
             {/* --------Body--------- */}
 
@@ -22,7 +22,7 @@ function Projects(){
                 </div>
 
 
-
+               
                 <div className = "body-Projects">
 
                     <div className = "subheading">
@@ -41,8 +41,7 @@ function Projects(){
                     <div className = "divider">
                         &nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
-
-
+ 
                     <p>
 
                         <div class = "grid1">
@@ -52,24 +51,25 @@ function Projects(){
                         <ul className = "Grid-Projects">
                             {/*---------------- MAKE THIS INTO A FUNCTION LATER!!------------- */}
                             <img className = "line1" src = {line1}></img>
+
+                           
+
+
                             <img className = "line2" src = {line2}></img>
                             {/* --------Project1--------- */}
                             <div className = "Project">
                                 <div className = "lidleft">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
-                                        This is the title!
+                                        ?? Hidden Project I
                                     </div>  
                                 </div>
-
-
-                                
                                 
                                 <div className = "bottompart">
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        This is a paragraph!
+                                        "Modernizing, Reviving"
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ function Projects(){
                                 <div className = "lidleft">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
-                                        This is the title2!
+                                        "S-Switch Deluxe"
                                     </div>  
                                 </div>
 
@@ -89,7 +89,7 @@ function Projects(){
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        This is a paragraph2!
+                                        Reinventing the Benq S-Switch, with simplified controls and new features.
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ function Projects(){
                                 <div className = "lidleft">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
-                                        This is the title3!
+                                        Study+
                                     </div>  
                                 </div>
 
@@ -108,7 +108,7 @@ function Projects(){
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        This is a paragraph3!
+                                        Revolutionizing academic success, built for the next generation.
                                     </div>
                                 </div>
 
@@ -131,7 +131,7 @@ function Projects(){
                                 <div className = "lidright">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
-                                        This is the title!
+                                        SFU Surge
                                     </div>  
                                 </div>
 
@@ -140,7 +140,7 @@ function Projects(){
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        This is a paragraph!
+                                        Combining modern inventions with nature.
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@ function Projects(){
                                 <div className = "lidright">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
-                                        This is the title2!
+                                        Inventory Manager
                                     </div>  
                                 </div>
 
@@ -160,7 +160,8 @@ function Projects(){
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        This is a paragraph2!
+                                        Simplicity. Sleek. Speed. 
+                                        <br></br>All of the above.
                                     </div>
                                 </div>
                             </div>

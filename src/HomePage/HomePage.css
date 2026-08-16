@@ -11,9 +11,10 @@
 
 
   border-radius:2vw;
-  border-color:rgb(80, 246, 255);
+  border-color:rgb(130, 16, 58);
   border-width: 0.25vw;
   border-style: solid;
+  box-shadow:0 0 17vw 17vw rgba(255, 255, 255, 1);
   
    
   width: 52vw;
@@ -29,7 +30,7 @@
   margin-right:-0.5vw;
   margin-top:-4%;
   
-  background-image:url("Background.jpg");
+  background-image:url("../Assets/BackgroundRed.jpg");
   background-attachment:fixed;
   background-size: cover;
   
@@ -54,10 +55,10 @@
 .Subtitle-HomePage{
   position:fixed;
 
-  text-align: center;
   font-family: "Cormorant Garamond", serif;
   font-size:5vw;
   padding-top:5vw;
+
   transform:translateY(10vh);
 
   
@@ -66,7 +67,9 @@
   writing-mode: vertical-rl;
 
 
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  text-shadow: rgb(255, 55, 85) 0 0 2vh;
   z-index: 99;
+
 
 }
