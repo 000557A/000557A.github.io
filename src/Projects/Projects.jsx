@@ -123,7 +123,7 @@ function Projects(){
                         <ul className = "Grid-Projects2">
                             {/*---------------- MAKE THIS INTO A FUNCTION LATER!!------------- */}
                          
-                            
+                             
                             <img className = "line2" src = {line2}></img>
 
                             {/* --------Project1--------- */}

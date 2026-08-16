@@ -51,6 +51,7 @@
   font-family: "Cormorant Garamond", serif;
   font-size:5vw;
   padding-top:5vw;
+
   transform:translateY(10vh);
 
   
@@ -59,7 +60,8 @@
   writing-mode: vertical-rl;
 
 
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  text-shadow: rgb(5, 187, 203) 0 0 2vh;
   z-index: 99;
 
 }
