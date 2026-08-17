@@ -74,7 +74,9 @@ function HomePage(){
                     </div>
 
                     <div className = "singularItem">
+                        <a href = "https://drive.google.com/file/d/1_LPHpCPdyIko0CzyoDU1PEXiF1CPmJqT/view?usp=drive_link">
                         <img className = "bluecap" src = {bluecap}></img>
+                        </a>
                         <div className = "itemHeading">
                             Precompiled S-Switch Deluxe
                         </div>
@@ -86,6 +88,7 @@ function HomePage(){
                             - You still need arduino!<br></br>
                             - May be a few versions behind<br></br>
                         </div>
+                        
                         
                     </div>
                     

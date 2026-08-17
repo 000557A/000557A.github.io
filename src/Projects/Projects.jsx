@@ -81,8 +81,9 @@ function Projects(){
                             
 
                             {/* --------Project1--------- */}
-                            <a href = "https://github.com/000557A/Arduino-Benq-S-Switch">
+                            <a href = "https://drive.google.com/file/d/1_LPHpCPdyIko0CzyoDU1PEXiF1CPmJqT/view?usp=drive_link">
                             <div className = "Project">
+                                Old version available for download 
                                 <div className = "lidleft">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
@@ -99,6 +100,7 @@ function Projects(){
                                     <div class = "Information">
                                         Innovating the Benq S-Switch, with simplified controls and new features.
                                         <br></br><br></br> Utilizes Windows API calls
+                                        
                                     </div>
                                 </div>
                             </div>
