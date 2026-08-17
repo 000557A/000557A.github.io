@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 import './Title.css'
 import Homepage from "../HomePage/HomePage.jsx"
 import Projects from "../Projects/Projects.jsx"
+import About from "../About/About.jsx"
 
 // import images like this
 import test from'../WIP.png'

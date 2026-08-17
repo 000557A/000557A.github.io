@@ -218,7 +218,7 @@
 .line2{
   position:absolute;
   height:15vh;
-  transform:translate(-30vw, 25vh);
+  transform:translate(-50vh, 25vh);
   z-index:1;
 }
 

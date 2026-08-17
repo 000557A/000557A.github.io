@@ -25,9 +25,9 @@ function HomePage(){
                     <hr></hr>
                         All bioses here are modified by me.<br></br>
                         Flash at your own discretion! <br></br>
-                        I am NOT responsible for any damages that may arise.<br></br>
+                        I am NOT responsible for any damages that may arise.<br></br><br></br>
                         
-                        Download by clicking on photo on the left.
+                        Download by clicking icon on the left.
                         <hr></hr>
                     </div>
                     {/* --------Bios Mods--------- */}
@@ -66,7 +66,7 @@ function HomePage(){
 
                     {/* --------Other stuff--------- */}
                     <div className = "subheading">
-                        Misc.
+                        Project Downloads
                     </div>
 
                     <div className = "singularItem">
