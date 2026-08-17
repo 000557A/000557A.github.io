@@ -61,8 +61,8 @@ function About(){
                             Programming caught my eyes because of how limitless it is.
                             <br></br> ANYTHING I could ever think about, could be written in code. 
                             <br></br><br></br>
-                            As such, the previously foggy path of life was beginning to clear up.
-                            <br></br><br></br>
+                             
+                             
                         </div>
                         
 

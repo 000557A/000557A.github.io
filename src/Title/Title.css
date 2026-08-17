@@ -94,13 +94,14 @@ a{
 
 .SiteTitle{
   position:relative;
-  transform:translate(-80vh, 24vh);
-  font-size:8vh;
+  font-size: 2.5vw;
   width:8vh;
   height:8vh;
   z-index:500;
-  color:rgb(255, 255, 255);
+  color:rgb(0, 221, 255);
   font-family: "Cinzel", serif;
-  text-shadow: rgb(255, 0, 0) 0 0 2vh;
+  text-shadow: rgb(85, 216, 242) 0 0 0.5vh;
+  text-decoration:none;
+
 
 }

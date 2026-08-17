@@ -25,7 +25,7 @@ function Title(){
             
             <ul className = "TitleList">
 
-                <li ><Link to = "/" className = "LinkStyles">Home</Link></li>
+                <li ><Link to = "/" className = "SiteTitle">000557A's Site</Link></li><br></br>
                 <li><Link to = "/HomePage" className = "LinkStyles" >Downloads</Link></li>
                 <li><Link to = "/Projects" className = "LinkStyles" >Projects </Link></li>
                 <li><Link to = "/About" className = "LinkStyles" >About</Link></li>
