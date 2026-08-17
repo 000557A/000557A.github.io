@@ -5,7 +5,7 @@ import Projects from "../Projects/Projects.jsx"
 import About from "../About/About.jsx"
 
 // import images like this
-import test from'../WIP.png'
+import test from'./tempimage.png'
 
 
 // needed for navigation
@@ -34,6 +34,10 @@ function Title(){
         </div>
 
         <img className = "RightImage" src = {test}></img>
+
+        <div className = "SiteTitle">
+            {/* title here */}
+        </div>
      </div>
     );
 }

@@ -1,5 +1,4 @@
 import './HomePage.css'
-import test from './test.jpg'
 import bioschip from '../Assets/biosv2.png'
 import bluecap from '../Assets/bluecap.png'
 
@@ -33,7 +32,9 @@ function HomePage(){
                     {/* --------Bios Mods--------- */}
 
                     <div className = "singularItem">
+                        <a href = "https://drive.google.com/file/d/1txGnNHMsgfr-l9wd_mEVsBzi3d3Lhb1k/view?usp=drive_link">
                         <img className = "bios" src = {bioschip}></img>
+                        </a>
                         <div className = "itemHeading">
                             Asus A8V Deluxe Modified BIOS
                             
@@ -42,13 +43,16 @@ function HomePage(){
                         <div className = "itemDescription">
                             - Updated Network ROM <br></br>
                             - No USB-Overcurrent Bug <br></br>
+                            - Tested on A8V Deluxe Rev 2.00 <br></br>
 
                         </div>
                         
                     </div>
 
                     <div className = "singularItem">
+                        <a href = "https://drive.google.com/file/d/12D8_zPfIISYOaj-CyCAm-77wnCLfxpLn/view?usp=drive_link">
                         <img className = "bios" src = {bioschip}></img>
+                        </a>
                         <div className = "itemHeading">
                             Asus A320M K/BR 
                             USB Overcurrent Error FIX
@@ -57,7 +61,7 @@ function HomePage(){
 
                         <div className = "itemDescription">
                             - NOTE: You have to implement AMIBIOS section yourself <br></br>
-
+                            - Modified from BR (Brazil) board,  International untested <br></br>
                             - Modified USB-Overcurrent with New-CPU Detect message<br></br>
                             - Bypass upon entering bios (on first boot)<br></br>
                         </div>

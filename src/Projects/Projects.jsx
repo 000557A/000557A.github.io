@@ -87,7 +87,7 @@ function Projects(){
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
                                         S-Switch Deluxe
-                                        <br></br><br></br><br></br><br></br>
+                                        <br></br><br></br>C++ Arduino<br></br>
                                         2026
                                     </div>  
                                 </div>
@@ -97,7 +97,8 @@ function Projects(){
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        Reinventing the Benq S-Switch, with simplified controls and new features.
+                                        Innovating the Benq S-Switch, with simplified controls and new features.
+                                        <br></br><br></br> Utilizes Windows API calls
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +110,7 @@ function Projects(){
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
                                         Study+
-                                        <br></br><br></br><br></br><br></br><br></br>
+                                        <br></br><br></br><br></br>Scratch.mit<br></br>HTML/CSS<br></br>
                                         2022
                                     </div>  
                                 </div>
@@ -119,7 +120,9 @@ function Projects(){
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        Revolutionizing academic success, built for the next generation.
+                                        Studying doesn't have to feel like a chore!<br></br><br></br>
+                                        We revolutionized academic success through games.
+                                        
                                     </div>
                                 </div>
 
@@ -145,7 +148,7 @@ function Projects(){
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
                                         SFU Surge
-                                        <br></br><br></br><br></br><br></br><br></br>
+                                        <br></br><br></br><br></br><br></br>ReactJS<br></br>
                                         2025
                                     </div>  
                                 </div>
@@ -155,7 +158,10 @@ function Projects(){
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        Combining modern inventions with nature.
+                                        Bringing the future into nature.
+                                        <br></br>
+                                        <br></br>
+                                        Built using ReactJS with Python backend, all within 24 hours.
                                     </div>
                                 </div>
                             </div>
@@ -170,7 +176,7 @@ function Projects(){
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
                                         Inventory Manager
-                                        <br></br><br></br><br></br><br></br>
+                                        <br></br><br></br>Java<br></br>JFrame<br></br>
                                         2024
                                     </div>  
                                 </div>
@@ -180,18 +186,22 @@ function Projects(){
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        Simplicity. Sleek. Speed. 
-                                        <br></br>All of the above.
+                                        Simple to use, Rapid Accessing inventory system.<br></br> <br></br> 
+                                        With local save and load (JSON).
+                                        
                                     </div>
                                 </div>
                             </div>
                             <img className = "line1inverse" src = {line1}></img>
-                                
+                            
+                            <a href = "https://devpost.com/augus1101">
                             <div className = "Project">
                                 <div className = "lidright">
                                     <img className = "cpuimage" src = {CPU2}></img>
                                     <div className = "Title">
-                                        This is the title3!
+                                        Previous Hackathon Submissions
+                                        <br></br><br></br>
+                                        Before: 2022
                                     </div>  
                                 </div>
 
@@ -200,10 +210,11 @@ function Projects(){
                                     <img className = "socketimage" src = {SOCKET}></img>
 
                                     <div class = "Information">
-                                        This is a paragraph3!
+                                        Clicking this will lead you to my DevPost
                                     </div>
                                 </div>
                             </div>
+                            </a>
 
                             
 

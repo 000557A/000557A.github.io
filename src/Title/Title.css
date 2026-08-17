@@ -24,6 +24,7 @@
   animation-name: MenuAnimation;
   animation-duration: 1s;
   font-size: 2.5vw;
+   
 
 }
 
@@ -44,11 +45,15 @@ li:hover{
 
 
 .MenuList{
-  padding: 8%;
+  position:relative;
+  padding: 12vh;
+  padding-top:18vh;
   padding-left: 5%;
   align-items: center;
   background-color:rgb(255, 255, 255);
   max-block-size: 15%;
+  border-style: none;
+  box-shadow:0 0 8vw 10vw rgba(255, 255, 255,1);
 
 }
 
@@ -57,7 +62,8 @@ li:hover{
 
 .RightImage{
     height: 100vh; 
-    width: 75vw; 
+    width: 76.2vw;
+    max-height:100vh; 
       
  }
 
@@ -83,4 +89,18 @@ a:visited{
 
 a{
   text-decoration: none;
+}
+
+
+.SiteTitle{
+  position:relative;
+  transform:translate(-80vh, 24vh);
+  font-size:8vh;
+  width:8vh;
+  height:8vh;
+  z-index:500;
+  color:rgb(255, 255, 255);
+  font-family: "Cinzel", serif;
+  text-shadow: rgb(255, 0, 0) 0 0 2vh;
+
 }
