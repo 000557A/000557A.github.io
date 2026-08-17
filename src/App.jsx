@@ -1,6 +1,6 @@
 import { useState, Component } from 'react'
 import './App.css'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Routes, Route, Link } from 'react-router-dom';
 import Title from './Title/Title.jsx'
 import HomePage from './HomePage/HomePage.jsx'
 import Projects  from './Projects/Projects.jsx'
@@ -26,7 +26,7 @@ function App() {
 
     <div className = "Layout">
       
-      <BrowserRouter>
+      <HashRouter>
       
         <Routes>
           <Route path = "/" element ={<Title/>}/>/* 
@@ -38,7 +38,7 @@ function App() {
 
 
         
-      </BrowserRouter>
+      </HashRouter>
 
     
     
