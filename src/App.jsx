@@ -1,5 +1,6 @@
 import { useState, Component, useEffect } from 'react'
 import './App.css'
+import './Clock.css'
 import { BrowserRouter, HashRouter, Routes, Route, Link } from 'react-router-dom';
 import Title from './Title/Title.jsx'
 import HomePage from './HomePage/HomePage.jsx'

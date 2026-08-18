@@ -42,14 +42,15 @@ li:hover{
   position:relative;
   padding: 12vh;
   padding-top:12vh;
-  padding-bottom:68vh;
+  padding-bottom:100vh;
   padding-left: 5%;
+  padding-right:2%;
   height:100vh;
   align-items: center;
   background-color:rgb(255, 255, 255);
   max-block-size: 15%;
   border-style: none;
-  box-shadow:0 40vh 13vw 21vw rgb(255, 255, 255);
+  box-shadow:0 0vh 6vw 8vw rgb(255, 255, 255);
 
 }
 

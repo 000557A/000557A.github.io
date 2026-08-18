@@ -32,7 +32,7 @@ function Clock(){
       day : now.getDate() + 1,  // date is 0 indexed
       month : now.getMonth() + 1, // month is 0 indexed
       year : now.getFullYear(),
-      hr : now.getHours(),
+      hr : TimeDetector(now.getHours()),
       sec : fixTime(now.getSeconds()),
       min : fixTime(now.getMinutes()),
         //currentDate = `${month}-${day}-${year}`'
@@ -53,8 +53,21 @@ function Clock(){
 
     function TimeDetector(hour){
       // 
+      let hi = parseInt(hour);
       // WIP for changing background in title dep't on hour
-      return time;
+      if (hi <= 5 || hi >= 21) {
+        // 9pm to 5am (night)
+        //document.getElementById('all').style.backgroundColor = 'red';
+      } else if (hi > 5 || hi > 16) {
+        // 5:01 to 4 (daytime)
+      } else if (hi >= 16 || hi > 21) {
+        // 5:01 to 12 (evening)\
+        <style>{` .all { background-color: rgba(125, 225, 255, 0.24); } `}</style>
+      }
+
+      // really doesn't do anything to the time itself
+      // just used for function call
+      return hour;
     }
 
 
