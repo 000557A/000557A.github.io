@@ -11,4 +11,6 @@ TO DO LIST:
 - Finish download page (need to grab the precompiled file)
 - About page needs to be populated
 - Inventory System needs to be uploaded to Github.
+- Need to add time to title page,
+ie. certain time == night.
 

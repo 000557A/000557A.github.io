@@ -3,9 +3,10 @@ import './Title.css'
 import Homepage from "../HomePage/HomePage.jsx"
 import Projects from "../Projects/Projects.jsx"
 import About from "../About/About.jsx"
+import Clock from "../Clock.jsx"
 
 // import images like this
-import test from'./tempimage.png'
+import test from'../Assets/greengrass2.png'
 
 
 // needed for navigation
@@ -18,13 +19,14 @@ function Title(){
     //NOte when have time, edit the hover effects on this page
     
     return(
-
+    
      <div className = "all">
         
+        <div className = "Clock"><Clock></Clock></div>
         <div className = "MenuList">
             
             <ul className = "TitleList">
-
+            
                 <li ><Link to = "/" className = "SiteTitle">000557A's Site</Link></li><br></br>
                 <li><Link to = "/HomePage" className = "LinkStyles" >Downloads</Link></li>
                 <li><Link to = "/Projects" className = "LinkStyles" >Projects </Link></li>
@@ -34,10 +36,11 @@ function Title(){
         </div>
 
         <img className = "RightImage" src = {test}></img>
-
         <div className = "SiteTitle">
             {/* title here */}
         </div>
+
+       
      </div>
     );
 }

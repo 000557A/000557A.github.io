@@ -5,18 +5,22 @@ import bios from '../Assets/biosv2.png'
 import bluecap from '../Assets/bluecap.png'
 import orangecap from '../Assets/orangecap.png'
 import yellowcap from '../Assets/yellowcap.png'
+import Clock from '../Clock.jsx'
+
+ 
+
+
 
 function About(){
     
     return(
         <div className = "Entirety-About">
-
+            <div id="txt"></div>
             <div className = "Subtitle-About">
                 &nbsp;&nbsp;&nbsp;&nbsp;About me!&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
-
+            
             {/* --------Body--------- */}
-
 
             <div className = "bodybackground-About">
                 

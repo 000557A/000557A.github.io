@@ -1,10 +1,12 @@
-import { useState, Component } from 'react'
+import { useState, Component, useEffect } from 'react'
 import './App.css'
 import { BrowserRouter, HashRouter, Routes, Route, Link } from 'react-router-dom';
 import Title from './Title/Title.jsx'
 import HomePage from './HomePage/HomePage.jsx'
 import Projects  from './Projects/Projects.jsx'
 import About from './About/About.jsx'
+import Clock from './Clock.jsx'
+
 
 
 
@@ -33,6 +35,7 @@ function App() {
           <Route path = "/HomePage" element ={<HomePage/>}/>
           <Route path = "/Projects" element ={<Projects/>}/>
           <Route path = "/About" element ={<About/>}/> */
+          <Route path = "/Clock" element ={<Clock/>}/> */
         </Routes>
 
 
