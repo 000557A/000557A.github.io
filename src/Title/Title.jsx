@@ -53,23 +53,23 @@ function Title(){
           let hi = parseInt(hour);
           
           // WIP for changing background in title dep't on hour
-          if (hi <= 5 || hi >= 21) {
+          if (hi <= 5 && hi >= 21) {
             // 9pm to 5am (night)
            
             color = ` .all { background-image: linear-gradient(to top right, rgba(0,0,0,0.7), rgba(0,0,0,1));} `;
             fontcolor = ` .entireclock { color:white; } `;
 
 
-          } else if (hi > 5 || hi < 16) {
+          } else if (hi > 5 && hi < 16) {
             // 5:01 to 4pm (daytime)
             color = ` .all {background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(140,237,250,1)); } `;
             fontcolor = ` .entireclock { color:black; } `;
 
             
             
-          } else if (hi >= 16 || hi < 21) {
+          } else if (hi >= 16 && hi < 21) {
             // 5:01 to 12 (evening)
-            color = ` .all {background-image: linear-gradient(to top, rgba(250,199,140,0.4), rgba(235,102,0,1)); } `;
+            color = ` .all {background-image: linear-gradient(to top, rgba(250,199,140,0.2), rgba(235,102,0,1)); } `;
             fontcolor = ` .entireclock { color:white; } `;
           }
     
