@@ -69,7 +69,7 @@ function Title(){
             
           } else if (hi >= 16 || hi < 21) {
             // 5:01 to 12 (evening)
-            color = ` .all { background-color: rgba(158, 50, 3, 0.397); } `;
+            color = ` .all {background-image: linear-gradient(to top, rgba(250,199,140,0.4), rgba(235,102,0,1)); } `;
             fontcolor = ` .entireclock { color:white; } `;
           }
     
